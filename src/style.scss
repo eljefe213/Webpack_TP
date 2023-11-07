@@ -1,0 +1,36 @@
+*{
+    font-family: 'Agbalumo', sans-serif;
+}
+
+h1 {
+    
+    color: blueviolet;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 50px;
+  }
+  
+  .city-card {
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  
+    .city-card-image {
+      width: 400px; // Doublez la largeur actuelle
+      height: 300px; // Doublez la hauteur actuelle
+      object-fit: cover; // Pour conserver le ratio d'aspect original
+    }
+  
+    h2 {
+      font-size: 1.5rem;
+      margin: 10px 0;
+    }
+  
+    p {
+      font-size: 1rem;
+      margin: 10px 0;
+    }
+  }
+  
